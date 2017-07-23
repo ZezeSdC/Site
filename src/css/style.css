@@ -1,0 +1,180 @@
+/*
+ * BG color for header
+ */
+.mdl-layout__header{
+    background-color: #2f4257;
+}
+
+/*
+ * BG color for footer
+ */
+.mdl-mini-footer{
+    background-color: #212121;
+    height: 36px;
+}
+
+/*
+ * BG color for main buttons
+ */
+.mdl-button--raised.mdl-button--colored{
+    background-color: #2f4257;
+}
+
+/*
+ * BG color for main buttons
+ */
+.mdl-button--raised.mdl-button--colored:hover{
+    background-color: #2f4257;
+}
+
+/*
+ * Button that add new marker on map
+ */
+.btn-add{
+    position: fixed;
+    bottom: 110px;
+    right: 10px;
+    z-index: 2;
+}
+
+/*
+ * Container for Google maps
+ */
+#map{
+    height: 100%;
+    width: 100%;
+}
+
+/*
+ * Conteiner for Google maps and associed content
+ */
+#mapcont{
+    height: 100%;
+}
+
+/*
+ * Conteiner for index page
+ */
+.index{
+    background: none;
+    box-shadow: none;
+}
+
+/*
+ * Conteiner for index BG
+ */
+.index-bg{
+    background: url("../img/bg.jpg");
+    filter: blur(5px);
+    background-color: rgba(0,0,0,0.5);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+/*
+ * Custom styles for dialog element
+ */
+.mdl-dialog{
+    margin-top: -80px;
+    width: 30%;
+    min-width: 257px;
+}
+
+/*
+ * Custom styles for radio-button element
+ */
+.mdl-radio__label{
+    margin-right: 10px;
+}
+
+/*
+ * Custom styles for dialog title
+ */
+.mdl-dialog__title{
+    font-size: 2.3rem;
+}
+
+/*
+ * Custom styles for top menu itens
+ */
+.mdl-navigation__link{
+    font-size: 16px;
+}
+
+.mdl-textfield{
+    width: 100%;
+}
+
+.mdl-layout__content{
+    height: 100%;
+}
+
+/*
+ * Custom style for main title
+ */
+.mdl-layout-title .mdl-navigation__link{
+    font-size: 1.5rem;
+    margin-left: -24px;
+}
+
+/*
+ * Custom styles for main content
+ */
+.mdl-cell-title{
+    color:#aeea00;
+    text-align: center;
+}
+
+.mdl-cell-content{
+    font-size: 1.2rem;
+    text-align: justify;
+    margin-right: 5px;
+}
+
+.mdl-article{
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+    color: #eee;
+    margin-top: 10px;
+}
+
+/*
+ * Custom form style
+ */
+#formulario{
+    padding: 10px;
+    text-align: justify;
+    color:#eee;
+}
+
+#title-form{
+    color: #aeea00;
+    text-transform: uppercase;
+    margin-top: 2px;
+}
+
+label{
+    color: #bdbdbd;
+    font-size: 1.2rem;
+    margin:1px;
+}
+
+.form-item{
+    display: block;
+    margin: 15px 0px;
+}
+.entrada{
+    border: 1.5px solid #eee;
+    margin:1px;
+    padding: 2px;
+    font-size: 1.1rem;
+    width: 85%;
+}
+
+.form-item .mdl-button{
+    color: #000;
+    background: #78909c;
+}
+
+
+

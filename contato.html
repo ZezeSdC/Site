@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Material Design Lite -->
+        <script src="./src/js/material.min.js"></script>
+        <link rel="stylesheet" href="./src/css/material.min.css">
+        <!-- Custom styles -->
+        <link rel="stylesheet" href="./src/css/style.css">
+        <!-- Material Design icon font -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <title>Crimapp | Contato</title>
+    </head>
+    <body style="background: #232f3d;">
+        <!-- Always shows a header, even in smaller screens. -->
+        <div class="index-bg"></div>
+        <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+            <header class="mdl-layout__header index">
+                <div class="mdl-layout__header-row">
+                    <!-- Title -->
+                    <span class="mdl-layout-title"><a class="mdl-navigation__link" href="index.html">Crimapp</a></span>
+                    <div class="mdl-layout-spacer"></div>
+                    <!-- Right aligned menu below button -->
+                    <button id="demo-menu-lower-right" class="mdl-button mdl-js-button mdl-button--icon">
+                        <i class="material-icons">more_vert</i>
+                    </button>
+                    <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="demo-menu-lower-right">
+                        <li class="mdl-menu__item">Criar conta</li>
+                        <li class="mdl-menu__item">Login</li>
+                    </ul>
+                </div>
+            </header>
+            <div class="mdl-layout__drawer">
+                <span class="mdl-layout-title">Crimapp</span>
+                <nav class="mdl-navigation">
+                    <a class="mdl-navigation__link" href=""> Adicionar </a>
+                    <a class="mdl-navigation__link" href=""> Consultar </a>
+                    <a class="mdl-navigation__link" href=""> Outros </a>
+                </nav>
+            </div>
+            <main class="mdl-layout__content">
+                <div class="page-content">
+                    <div class="mdl-grid">
+                        <div class="mdl-cell mdl-cell--12-col mdl-cell--1-offset-desktop">
+                            <div class="mdl-cell--9-col mdl-cell mdl-cell--8-col-tablet mdl-cell--9-col-phone">
+                                <form id="formulario" action="#" method="post" >
+                                    <fieldset>
+                                        <h2 id="title-form">Fale Conosco!</h2>
+                                        <p class="mdl-cell-content">Para esclarecer dúvidas, enviar sugestões ou críticas, preencha os campos abaixo.</p>
+                                        <div class="form-item">
+                                            <label> Nome:</label><br>
+                                            <input class="entrada" type="text" name="nome" required>
+                                        </div>
+                                        <div class="form-item">
+                                            <label> E-mail:</label><br>
+                                            <input class="entrada" type="email" name="email" required>
+                                        </div>
+                                        <div class="form-item">
+                                            <label> Assunto </label><br>
+                                            <select name="Assunto">
+                                                <option value="duvida"> Dúvidas </option>
+                                                <option value="critica"> Críticas </option>
+                                                <option value="sugestao"> Sugestões </option>
+                                            </select>
+                                        </div>
+                                        <div class="form-item">
+                                            <label> Mensagem: </label><br>
+                                            <textarea class="entrada" name="msg" rows="5" required></textarea><br>
+                                        </div>
+                                        <div class="form-item">
+                                            <button class="mdl-button mdl-js-button mdl-js-ripple-effect" type="submit">
+                                                Enviar
+                                            </button>
+                                        </div>
+                                    </fieldset>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <footer class="mdl-mini-footer">
+                <div class="mdl-mini-footer__left-section">
+                    <div class="mdl-logo">Copyright &copy 2017 Crimapp.</div>
+                </div>
+                <div class="mdl-mini-footer__right-section">    
+                    <ul class="mdl-mini-footer__link-list">
+                        <li><a href="sobre.html">Sobre</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                        <li><a href="faq.html">F.A.Q.</a></li>
+                    </ul>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
